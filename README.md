@@ -1,2 +1,3 @@
 # Python
-# just for study
+
+Happy Harbor with my pig brother Zezera!
