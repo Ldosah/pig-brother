@@ -1,7 +1,7 @@
 class hanjian:
     def run(self, c, name):
-        print("跑喽")
         c.house(name)
+        print("跑喽")
 
 
 class guojia:
@@ -11,7 +11,11 @@ class guojia:
         self.huji = dream
 
     def house(self, name):
-        print("%s完美的国家！" % (name))
+        if name=="中国":
+            print("傻逼是吧")
+            quit()
+        else:
+            print("%s完美的国家！" % (name))
 
 
 person = hanjian()
